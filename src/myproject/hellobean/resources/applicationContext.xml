@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
- <bean name="helloBean1 helloBean2" class="myproject.hellobean.beans.HelloBean">
+ <bean name="helloBean1,helloBean2,helloBean3" class="myproject.hellobean.beans.HelloBean">
  <property name="name" value="Tofique Ahmed Khan"></property>
  
  </bean>
