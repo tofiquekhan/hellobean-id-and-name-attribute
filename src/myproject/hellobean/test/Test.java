@@ -9,7 +9,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("/myproject/hellobean/resources/applicationContext.xml");
-		HelloBean helloBean = (HelloBean)context.getBean("helloBean");
+		HelloBean helloBean = (HelloBean)context.getBean("helloBean2");
 		System.out.println(helloBean.sayHello());
 	}
 }
